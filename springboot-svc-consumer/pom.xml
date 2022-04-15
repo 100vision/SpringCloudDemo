@@ -61,7 +61,7 @@
                 <version>${jkube.version}</version>
                 <configuration>
                     <!-- 以下参数使用k8s:build阶段：使用远程docker engine来打包镜像 -->
-                    <dockerHost>tcp://xmtstitci01.solex-server.com:2375</dockerHost>
+                    <dockerHost>tcp://xmtstitci01.mydockerhost.com:2375</dockerHost>
                 </configuration>
                 <executions>
                     <execution>
